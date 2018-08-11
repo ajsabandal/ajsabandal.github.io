@@ -1,3 +1,33 @@
+/* Default Start */
 body {
-    background-color: brown;
+    padding: 0;
+    margin: 0;
 }
+/* Default End */
+
+/* Global Start */
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+/* Global End */
+
+/* Header Start */
+header {
+
+}
+/* Header End */
+
+/* Content Start */
+.content {
+
+}
+/* Content End */
+
+/* Footer Start */
+footer {
+
+}
+/* Footer End */
+
