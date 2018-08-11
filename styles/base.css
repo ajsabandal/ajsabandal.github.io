@@ -1,8 +1,24 @@
+/*
+// Color Theme Palette
+// Dark Red: #740001
+// Red: #ae0001
+// Yellow: #eeba30
+// Dark Yellow: #d3a625
+// Black: #000000
+*/ 
+
 /* Default Start */
 body {
     padding: 0;
     margin: 0;
 }
+
+header,
+footer,
+nav {
+    display: block;
+}
+
 /* Default End */
 
 /* Global Start */
@@ -15,18 +31,69 @@ body {
 
 /* Header Start */
 header {
-
+    background-color: #740001;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
 /* Header End */
 
+/* Navigation Start */
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #d3a625;
+}
+
+nav a:not(:last-child) {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #eeba30;
+}
+ 
+nav a:hover,
+nav a:focus {
+    background-color: #eeba30;
+}
+
+/* Navigation End */
+
 /* Content Start */
 .content {
-
+    margin: 20px 0;
 }
+
+.divider {
+    display: flex;
+}
+
+.divider .aside {
+    width: 200px;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.divider .middle {
+    flex: 1;
+    padding: 10px;
+}
+
 /* Content End */
 
 /* Footer Start */
 footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: black;
 
 }
 /* Footer End */
