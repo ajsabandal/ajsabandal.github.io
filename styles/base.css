@@ -9,6 +9,8 @@
 */ 
 
 /* Default Start */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
     padding: 0;
     margin: 0;
@@ -36,6 +38,8 @@ header {
     padding: 20px;
     text-align: center;
     color: #666547;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 10px;
 }
 /* Header End */
 
@@ -51,6 +55,8 @@ nav a {
     padding: 10px;
     color: #666547;
     background-color: #a8e6cf;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
 }
 
 nav a:not(:last-child) {
